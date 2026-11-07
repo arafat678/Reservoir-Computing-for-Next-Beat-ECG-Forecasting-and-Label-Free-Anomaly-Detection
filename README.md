@@ -19,7 +19,7 @@ Official open-source benchmark repository for **Reservoir Computing for Next-Bea
 > **Authors:** **Arafat Ali Mondal**<sup>1,*</sup> and **Ankush Kumar**<sup>2</sup>  
 > <sup>1</sup> *Department of Computer Science and Engineering, Swami Vivekananda University*  
 > <sup>2</sup> *Department of Electrical Engineering, Indian Institute of Technology Roorkee*  
-> <sup>2</sup> *Before using in your research. Make sure you get permission from the author*  
+> <sup></sup> *Before using in your research. Make sure you get permission from the author*  
 
 ---
 
