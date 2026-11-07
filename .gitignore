@@ -1,0 +1,67 @@
+# ==============================================================================
+# STRICT RESEARCH MANUSCRIPT & DRAFT EXCLUSIONS
+# (Do NOT commit paper drafts, Word documents, or confidential manuscript files)
+# ==============================================================================
+*.docx
+*.doc
+*.pdf
+*.rtf
+*.odt
+~$*
+~WRL*
+Draft Paper/
+Final Paper (RC)/
+Paper ready to send 0.2/
+Paper Ready to send 00.2/
+Draft Paper/*
+Final Paper (RC)/*
+Paper ready to send 0.2/*
+Paper Ready to send 00.2/*
+
+# ==============================================================================
+# Python & Virtual Environments
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+aivenv/
+venv/
+env/
+ENV/
+.env
+.venv/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==============================================================================
+# Datasets & Raw Waveforms (downloaded via wfdb / scripts)
+# ==============================================================================
+mitdb/
+out_mitdb/
+out_test/
+extracted_figures/
+
+# ==============================================================================
+# OS & Editor Artifacts
+# ==============================================================================
+desktop.ini
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
