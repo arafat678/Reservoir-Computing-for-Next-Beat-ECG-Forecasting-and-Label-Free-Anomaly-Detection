@@ -22,20 +22,20 @@ Official open-source benchmark repository for **Reservoir Computing for Next-Bea
 
 ---
 
-## ⚡ Fast Executive Summary: At a Glance
+##  Fast Executive Summary: At a Glance
 
 | Fast Metric | Measured Value | Significance / Clinical Benchmark |
 |:---|:---:|:---|
-| ⚡ **Forward Inference Latency** | **$0.138\text{ ms / beat}$** | **$> 7,200\text{ beats/second}$** throughput (real-time edge wearable cardiac monitoring) |
-| 🎯 **Forecasting Accuracy** | **$0.1309\text{ RMSE}$** | **$38.9\%$ error reduction** over naive persistence ($0.2141$ RMSE, $p = 1.9 \times 10^{-5}$) |
-| 🔍 **Label-Free Anomaly Ranking** | **$0.969\text{ ROC-AUC}$ / $0.872\text{ PR-AUC}$** | Accurately identifies pathological beats without requiring manual clinical annotations |
-| 🛡️ **Clinical False-Alarm Rate** | **$3.5\text{ alarms / hour}$** | Low false alarm burden calibrated globally on unlabelled records ($q = 0.99$) |
-| 🔬 **Evaluation Protocol** | **$n = 22$ held-out patients** | Strict inter-patient AAMI Split A (zero data leakage between patients) |
-| ⏱️ **1-Click Reproduction Time** | **$< 5\text{ seconds}$** | Complete test set evaluation reproduced with `python reproduce_paper_results.py` |
+| **Forward Inference Latency** | **$0.138\text{ ms / beat}$** | **$> 7,200\text{ beats/second}$** throughput (real-time edge wearable cardiac monitoring) |
+| **Forecasting Accuracy** | **$0.1309\text{ RMSE}$** | **$38.9\%$ error reduction** over naive persistence ($0.2141$ RMSE, $p = 1.9 \times 10^{-5}$) |
+| **Label-Free Anomaly Ranking** | **$0.969\text{ ROC-AUC}$ / $0.872\text{ PR-AUC}$** | Accurately identifies pathological beats without requiring manual clinical annotations |
+| **Clinical False-Alarm Rate** | **$3.5\text{ alarms / hour}$** | Low false alarm burden calibrated globally on unlabelled records ($q = 0.99$) |
+| **Evaluation Protocol** | **$n = 22$ held-out patients** | Strict inter-patient AAMI Split A (zero data leakage between patients) |
+| **1-Click Reproduction Time** | **$< 5\text{ seconds}$** | Complete test set evaluation reproduced with `python reproduce_paper_results.py` |
 
 ---
 
-## 📊 Benchmark Summary Table
+## Benchmark Summary Table
 
 Evaluated across **$n = 22$ sequestered test patients** (record-level bootstrap, 50 resamples):
 
@@ -51,7 +51,7 @@ Evaluated across **$n = 22$ sequestered test patients** (record-level bootstrap,
 
 ---
 
-## 🔬 Empirical Visual Gallery
+## Empirical Visual Gallery
 
 ### 1. Model Convergence & Forecasting Error Distributions
 | Parameter Sweeps around Evolved Genomes | Per-Record Forecasting RMSE Comparison |
@@ -78,7 +78,7 @@ Evaluated across **$n = 22$ sequestered test patients** (record-level bootstrap,
 
 ---
 
-## 🚀 Fast 1-Click Reproduction
+## Fast 1-Click Reproduction
 
 ### 1. Installation
 ```bash
@@ -100,7 +100,7 @@ This immediately evaluates all $n = 22$ held-out test patients and outputs:
 
 ---
 
-## 🧠 System Architecture & Computational Flow
+## System Architecture & Computational Flow
 
 ```mermaid
 flowchart TD
@@ -142,7 +142,7 @@ flowchart TD
 
 ---
 
-## 📐 Mathematical Formulation
+## Mathematical Formulation
 
 ### 1. Dual-Domain Temporal and Spectral Feature Concatenation
 Given the discrete resampled beat segment $u_{\text{time}}[n]$ ($n = 0, \dots, L-1$, $L=50$):
@@ -163,7 +163,7 @@ ensuring contractivity and unconditional asymptotic stability.
 
 ---
 
-## 🔬 Key Scientific Findings & Negative Results
+## Key Scientific Findings & Negative Results
 
 Unlike works that omit baseline comparisons or evaluate on mixed-patient data, this study reports **rigorous negative findings** that advance reproducible neuro-inspired AI:
 
@@ -176,7 +176,7 @@ Unlike works that omit baseline comparisons or evaluate on mixed-patient data, t
 
 ---
 
-## ⚙️ Running Full Neuroevolution Protocol
+##  Running Full Neuroevolution Protocol
 
 To execute the complete end-to-end genetic algorithm search from scratch:
 ```bash
@@ -189,7 +189,7 @@ python nerc_q1q2_protocol.py --db synthetic --pop 6 --gens 3 --seeds 42 123 --bo
 
 ---
 
-## 📂 Repository File Structure
+##  Repository File Structure
 
 ```text
 Reservoir-Computing-for-Next-Beat-ECG-Forecasting-and-Label-Free-Anomaly-Detection/
@@ -225,7 +225,7 @@ Reservoir-Computing-for-Next-Beat-ECG-Forecasting-and-Label-Free-Anomaly-Detecti
 
 ---
 
-## 📖 Citation
+##  Citation
 
 If you use this benchmark, code, or findings in your academic research, please cite:
 
@@ -234,14 +234,14 @@ If you use this benchmark, code, or findings in your academic research, please c
   author    = {Arafat Ali Mondal and Ankush Kumar},
   title     = {Reservoir Computing for Next-Beat ECG Forecasting and Label-Free Anomaly Detection: An Empirical Benchmark Against Sequence Baselines},
   journal   = {GitHub Repository},
-  year      = {2026},
+  year      = {2026},{15 JUN)
   url       = {https://github.com/arafat678/Reservoir-Computing-for-Next-Beat-ECG-Forecasting-and-Label-Free-Anomaly-Detection}
 }
 ```
 
 ---
 
-## 📜 License & Ethics
+## License & Ethics
 
 - **Software License:** Released under the [MIT License](LICENSE).
 - **Ethics Statement:** Evaluation utilizes the public, anonymized [MIT-BIH Arrhythmia Database](https://physionet.org/content/mitdb/1.0.0/) under PhysioNet guidelines. No animal or identifiable human subjects were directly involved.
