@@ -75,3 +75,4 @@ Hyperparameters are evolved across the validation set using tournament selection
 | Ridge Penalty | $\log_{10} \lambda$ | $[-6, +2]$ | $0.5$ | Tikhonov regularization exponent |
 | Dendritic Coupling | $\gamma$ | $[0.0, 1.5]$ | $0.1$ | Coupling weight for dendritic branch $\mathbf{d}_t$ |
 | Gate Slope | $\beta$ | $[0.1, 2.0]$ | $0.1$ | Sigmoid saturation scaling for $\mathbf{g}_t$ |
+

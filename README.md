@@ -73,7 +73,7 @@ Evaluated on **$n = 22$ held-out test patients** (record-level bootstrap, 50 res
 ### 1. Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/arafatmondal7797/Arafat-NeuroAI.git
+git clone https://github.com/arafat678/Arafat-NeuroAI.git
 cd Arafat-NeuroAI
 pip install -r requirements.txt
 ```
@@ -141,7 +141,7 @@ If you use this benchmark, code, or findings in your academic research, please c
   title     = {Genetically Tuned Reservoir Computing for Next-Beat ECG Forecasting and Label-Free Anomaly Detection: A Negative-Findings Benchmark Against Simple Sequence Baselines},
   journal   = {Arafat-NeuroAI Benchmark Repository},
   year      = {2026},
-  url       = {https://github.com/arafatmondal7797/Arafat-NeuroAI}
+  url       = {https://github.com/arafat678/Arafat-NeuroAI}
 }
 ```
 
@@ -151,3 +151,4 @@ If you use this benchmark, code, or findings in your academic research, please c
 
 - **Software License:** Released under the [MIT License](LICENSE).
 - **Ethics Statement:** Evaluation utilizes the public, anonymized [MIT-BIH Arrhythmia Database](https://physionet.org/content/mitdb/1.0.0/) under PhysioNet guidelines. No animal or identifiable human subjects were directly involved.
+

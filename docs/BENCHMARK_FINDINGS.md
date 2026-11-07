@@ -73,3 +73,4 @@ To guarantee numerical stability and real-time execution feasibility on wearable
   - Per-beat forward pass latency: **$0.138\text{ ms} \pm 0.014\text{ ms}$** (Single CPU thread)
   - Memory footprint: $< 4.2\text{ MB}$ RAM
   - *Implication:* Easily deployable on Cortex-M4 or low-power RISC-V wearable hardware sampling at $360\text{ Hz}$.
+
