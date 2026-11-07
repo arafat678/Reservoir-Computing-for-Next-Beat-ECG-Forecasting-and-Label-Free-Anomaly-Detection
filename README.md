@@ -11,11 +11,11 @@ Official open-source benchmark repository for **Arafat-NeuroAI**: an empirical i
 > **Authors:** **Arafat Ali Mondal**<sup>1,*</sup> and **Ankush Kumar**<sup>2</sup>  
 > <sup>1</sup> *Department of Computer Science and Engineering, Swami Vivekananda University*  
 > <sup>2</sup> *Department of Electrical Engineering, Indian Institute of Technology Roorkee*  
-> <sup>*</sup> *Corresponding Author:* `arafatmondal7797@gmail.com`
+
 
 ---
 
-## 📌 Architecture & System Overview
+## Architecture & System Overview
 
 ![Arafat-NeuroAI Pipeline Architecture](figures/01_system_architecture.png)
 
@@ -27,7 +27,7 @@ The framework evaluates next-beat forecasting and residual anomaly scoring under
 
 ---
 
-## 🔬 Key Scientific Findings & Negative Results
+## Key Scientific Findings & Negative Results
 
 Unlike works that omit baseline comparisons or evaluate on mixed-patient data, this study reports **rigorous negative findings** that advance reproducible neuro-inspired AI:
 
@@ -40,7 +40,7 @@ Unlike works that omit baseline comparisons or evaluate on mixed-patient data, t
 
 ---
 
-## 📊 Benchmark Summary Table
+## Benchmark Summary Table
 
 Evaluated on **$n = 22$ held-out test patients** (record-level bootstrap, 50 resamples):
 
@@ -56,7 +56,7 @@ Evaluated on **$n = 22$ held-out test patients** (record-level bootstrap, 50 res
 
 ---
 
-## 📈 Visualizations & Empirical Curves
+## Visualizations & Empirical Curves
 
 | Validation MSE Sweeps around Evolved Genomes | Per-Record Forecasting RMSE Comparison |
 |:---:|:---:|
@@ -68,7 +68,7 @@ Evaluated on **$n = 22$ held-out test patients** (record-level bootstrap, 50 res
 
 ---
 
-## 🚀 Quickstart & 1-Click Reproduction
+## Quickstart & 1-Click Reproduction
 
 ### 1. Installation
 Clone the repository and install dependencies:
@@ -101,7 +101,7 @@ python nerc_q1q2_protocol.py --db synthetic --pop 6 --gens 3 --seeds 42 123 --bo
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 Arafat-NeuroAI/
@@ -131,7 +131,7 @@ Arafat-NeuroAI/
 
 ---
 
-## 📖 Citation
+## Citation
 
 If you use this benchmark, code, or findings in your academic research, please cite:
 
@@ -147,7 +147,7 @@ If you use this benchmark, code, or findings in your academic research, please c
 
 ---
 
-## 📜 License & Ethics
+## License & Ethics
 
 - **Software License:** Released under the [MIT License](LICENSE).
 - **Ethics Statement:** Evaluation utilizes the public, anonymized [MIT-BIH Arrhythmia Database](https://physionet.org/content/mitdb/1.0.0/) under PhysioNet guidelines. No animal or identifiable human subjects were directly involved.
