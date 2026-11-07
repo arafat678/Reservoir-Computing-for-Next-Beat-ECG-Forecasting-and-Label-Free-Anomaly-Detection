@@ -10,7 +10,7 @@ authors:
     affiliation: "Department of Electrical Engineering, Indian Institute of Technology Roorkee"
 title: "Reservoir Computing for Next-Beat ECG Forecasting and Label-Free Anomaly Detection"
 date-released: 2026-11-07
-url: "https://github.com/arafat678/Arafat-NeuroAI"
+url: "https://github.com/arafat678/Reservoir-Computing-for-Next-Beat-ECG-Forecasting-and-Label-Free-Anomaly-Detection"
 keywords:
   - reservoir-computing
   - echo-state-networks
